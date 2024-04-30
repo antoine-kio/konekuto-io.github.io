@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konekuto</title>
+    <style>
+        /* Set body and html to full height and no margin */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        /* Make the img tag cover the full screen */
+        img {
+            position: absolute; /* Use absolute positioning */
+            top: 0;
+            left: 0;
+            width: 100vw; /* 100% of the viewport width */
+            height: 100vh; /* 100% of the viewport height */
+            object-fit: cover; /* Resize the image to cover the area */
+        }
+    </style>
+</head>
+<body>
+    <img src="resources/background.svg" alt="Full Screen Background SVG">
+</body>
+</html>
